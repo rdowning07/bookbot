@@ -13,3 +13,21 @@ def char_count(text):
         else:
             counts[char] = 1
     return counts
+
+def sort_on(item):
+  return item["num"]
+
+def sort_on(item):
+    return item["num"]
+
+def sort_chars(char_counts):
+    char_list = []
+    
+    for char, num in char_counts.items():
+        if not char.isalpha():
+            continue
+        char_list.append({"char": char, "num": num})
+    
+    char_list.sort(reverse=True, key=sort_on)
+    return char_list
+
