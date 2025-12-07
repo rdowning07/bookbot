@@ -1,6 +1,9 @@
 import sys
 from stats import word_count, char_count, sort_chars
 
+# add new books with wget
+# /books in .gitignore
+
 def get_books_text(path):
     with open(path, "r") as f:
         return f.read()
