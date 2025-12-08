@@ -46,14 +46,23 @@ Usage: python3 main.py <path_to_book>
 # Example Output
 
 ============ BOOKBOT ============
+
 Analyzing book found at books/frankenstein.txt...
+
 ----------- Word Count ----------
+
 Found 75767 total words
+
 --------- Character Count -------
+
 e: 44538
+
 t: 29493
+
 a: 25894
+
 ...
+
 ============= END ===============
 
 # Technical Notes
